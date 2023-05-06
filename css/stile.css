@@ -10,7 +10,7 @@ body{
 
 @font-face {
     font-family: "accademia";
-    src: url(/font/lucida\ bright.TTF);
+    src: url(../font/lucida\ bright.TTF);
 }
 
 
@@ -158,6 +158,22 @@ footer ul {
     display: flex;
     justify-content: space-between;
     
+}
+@media (max-width: 1600px){
+    #titolo, #conclusione{
+        font-size: 80px;
+    }
+    main h2{
+        font-size: 60px;
+        padding: 0px 30px;
+        background-color: #FFDB3B;
+        border-radius: 15px;
+    
+    }
+    ul{
+        font-size: 21px;
+    }
+
 }
 
 @media (min-width: 1300px){
