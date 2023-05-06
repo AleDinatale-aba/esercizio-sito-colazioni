@@ -31,6 +31,10 @@ header img{
 }
 
 header p{
+    background: rgb(88,215,238);
+    background: radial-gradient(circle,
+     rgba(88,215,238,1) 40%,
+    rgba(235,95,151,1) 40%);
     font-size: 30px;
     margin-left: 20px;
 }
