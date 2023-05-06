@@ -163,7 +163,7 @@ footer ul {
     justify-content: space-between;
     
 }
-@media (max-width: 1600px){
+@media (min-width: 1600px){
     #titolo, #conclusione{
         font-size: 80px;
     }
